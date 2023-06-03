@@ -1,6 +1,7 @@
 * [首页](/)
 * [学习数学思维](part1/README.md)
     * [什么是数学](part1/1_what_is_mathematics)
+      * [真理与证明](part1/1_what_is_mathematics/truths_and_proofs.md)
     * [数学归纳法](part1/2_mathematical_induction)
     * [集合](part1/3_set/)
     * [逻辑](part1/4_logic/)
