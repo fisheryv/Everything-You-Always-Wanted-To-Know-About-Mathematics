@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>你想要知道的关于数学的一切</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
+          integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X"
+          crossorigin="anonymous">
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        name: '你想要知道的关于数学的一切',
+        repo: 'https://github.com/fisheryv/Everything-You-Always-Wanted-To-Know-About-Mathematics',
+        loadSidebar: true,
+        subMaxLevel: 2,
+        coverpage: true,
+    }
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
+        integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz"
+        crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/marked@3"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+<script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+    }
+
+</script>
+</body>
+</html>
