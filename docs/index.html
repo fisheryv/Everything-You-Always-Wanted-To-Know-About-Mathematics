@@ -20,6 +20,18 @@
         loadSidebar: true,
         subMaxLevel: 2,
         coverpage: true,
+        pagination: {
+            previousText: {
+                '/en/': 'PREV',
+                '/': '上一章节'
+            },
+            nextText: {
+                '/en/': 'NEXT',
+                '/': '下一章节'
+            },
+            crossChapter: true,
+            crossChapterText: true,
+        }
     }
 </script>
 <!-- Docsify v4 -->
@@ -27,6 +39,7 @@
 <script defer src="//cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
         integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz"
         crossorigin="anonymous"></script>
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/marked@3"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 <script>
