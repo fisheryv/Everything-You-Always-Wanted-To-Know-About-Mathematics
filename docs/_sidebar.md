@@ -15,7 +15,7 @@
     * [关系和模运算](part2/6_relations_and_modular_arithmetic)
     * [函数和基数](part2/7_functions_and_cardinality)
     * [组合学](part2/8_combinatorics)
-* [附录：定义和定理](appendix/)
+* [附录：定义和定理](appendix/README.md)
     * [集合](appendix/set.md)
     * [逻辑](appendix/logic.md)
     * [归纳](appendix/induction.md)
